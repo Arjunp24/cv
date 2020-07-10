@@ -185,17 +185,15 @@
 		    
 		<div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/machine_trans.png" />
+                        <img src="images/machine_trans.jpg" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
                         <h3>Machine Translation</h3>
                         <ul>
-                            <li> Developed a Web App that predicts the sentiment of a user input review.
-			    <li> Performed text cleaning and preprocessing including stemming, stopword removal, tokenization and HTML parsing for over 50,000 reviews and uploaded the transformed data to AWS S3.
-		            <li> Built an LSTM model with Word Embedding layer using skip-gram architecture to learn sentiments from the data.
-			    <li> Deployed the model for testing on AWS Sagemaker and achieved a test accuracy of 84%.
-			    <li> Hosted the model on my Web App using AWS Lambda and AWS API Gateway.
+                            <li> Built a Machine Translation model that translates English sentences to French using keras.
+			    <li> Developed a pipeline to preprocess over 1.8 million English and French words.
+		            <li> Experimented with different architectures that include: Embedding layer + Bidirectional-GRU, Embedding layer with GRU, Bidirectional-GRU, Vanilla GRU, Encoder-Decoder with LSTM.
                         </ul>
                         <a href="https://github.com/Arjunp24/sentiment-analysis-sagemaker">View Project</a>
                     </div>
@@ -211,11 +209,10 @@
                     <div class="project-info">
                         <h3>Automatic Speech Recognizer</h3>
                         <ul>
-                            <li> Developed a Web App that predicts the sentiment of a user input review.
-			    <li> Performed text cleaning and preprocessing including stemming, stopword removal, tokenization and HTML parsing for over 50,000 reviews and uploaded the transformed data to AWS S3.
-		            <li> Built an LSTM model with Word Embedding layer using skip-gram architecture to learn sentiments from the data.
-			    <li> Deployed the model for testing on AWS Sagemaker and achieved a test accuracy of 84%.
-			    <li> Hosted the model on my Web App using AWS Lambda and AWS API Gateway.
+                            <li> Implemented a Neural Network that functions as an End-to-End Automatic Speech recognition (ASR) pipeline using keras.
+			    <li> Pipeline converts raw audio to feature representations like MFCC and Spectorgrams.
+		            <li> Different architectures map these audio features to transcribed text. 
+			    <li> Experimented with different architectures that include: Deep RNN + TimeDistributed Dense, CNN + RNN + TimeDistributed Dense, Bidirectional RNN + TimeDistributed Dense.
                         </ul>
                         <a href="https://github.com/Arjunp24/sentiment-analysis-sagemaker">View Project</a>
                     </div>
